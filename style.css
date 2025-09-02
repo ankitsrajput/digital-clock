@@ -60,6 +60,19 @@ body{
     color: #666;
     margin-top: 10px;
 }
+.weather{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-top: 15px;       
+}
+
+.temperature{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    margin-top: 15px;
+}
 .buttons{
     display: flex;
     justify-content: center;
@@ -105,6 +118,27 @@ body.dark-mode .screen .time{
 }
 body.dark-mode .screen .date{
     color: #ccc;
+}
+body.dark-mode .weather{
+    color: #fff;
+}
+body.dark-mode .temperature{
+    color: #fff;
+}
+body.dark-mode .city{
+    color: #fff;
+}
+body.dark-mode .feels-like{
+    color: #fff;
+}
+body.dark-mode .forecast{
+    color: #fff;
+}
+body.dark-mode .humidity{
+    color: #fff;
+}
+body.dark-mode .wind{
+    color: #fff;
 }
 body.dark-mode .buttons button{
     background: #fff;

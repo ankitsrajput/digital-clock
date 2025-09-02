@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Digital-Watch</title>
+    <title>Digital-Watch Cum Weather App</title>
 </head>
+
 <body>
     <!-- Watch -->
     <div class="container">
@@ -14,14 +16,33 @@
                 <div class="time" id="time">
                     00:00:00
                 </div>
-
                 <div class="date" id="date">
-                    01 Jan 1970, Thursday
+                    01 Jan 1990, Monday
                 </div>
+            </div>
+
+            <h3 class="weather">Weather Details</h3>
+            <div class="temperature" id="temperature">
+                Temp : --°C
+            </div>
+            <div class="city" id="city">
+                City : --
+            </div>
+            <div class="feels-like" id="feels-like">
+                Feels-like : --°C
+            </div>
+            <div class="forecast" id="forecast">
+                Forcast : --
+            </div>
+            <div class="humidity" id="humidity">
+                Humidity : --%
+            </div>
+            <div class="wind" id="wind">
+                Wind : -- km/h
             </div>
             <div class="buttons">
                 <p class="alert"></p>
-                <button id="toggle">Start</button>
+                <button id="toggle">Get Location</button>
                 <button id="dark-mode">Dark Mode</button>
             </div>
         </div>
